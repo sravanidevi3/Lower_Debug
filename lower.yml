@@ -1,0 +1,9 @@
+-
+  name: to print lower name
+  hosts: host1
+  remote_user: root
+  vars:
+    my_name: SRAVANIKRISHNA
+  tasks:
+    - debug: 
+          msg: "My name is {{ my_name }}" 
