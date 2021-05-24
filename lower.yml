@@ -6,4 +6,4 @@
     my_name: SRAVANIKRISHNA
   tasks:
     - debug: 
-          msg: "My name is {{ my_name }}" 
+          msg: "My name is {{ my_name | lower }}" 

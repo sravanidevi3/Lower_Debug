@@ -1,0 +1,11 @@
+- 
+  name: To print in title
+  hosts: host1
+  remote_user: root  
+  vars:
+      my_name: sravanidevi
+  tasks:
+     
+      - debug:
+            msg: "my name is {{ my_name | title }}"
+
